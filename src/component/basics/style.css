@@ -20,10 +20,18 @@
     box-sizing: inherit;
   }
   
-  .subtle {
+  .subtitle {
     color: #aaa;
   }
-  
+  body{
+    background: #faf7f2;
+    background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding:15px;
+  }
   .main-card--cointainer {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 500px));
@@ -123,6 +131,7 @@
     border: 1px solid #aaa;
     padding: 5px 10px;
     cursor: pointer;
+    width: fit-content;
   }
   
   .card-tag:hover {
@@ -159,6 +168,7 @@
   .navbar {
     padding-top: 50px;
     text-align: center;
+    justify-content: center;
   }
   
   .navbar h1 {
