@@ -78,6 +78,8 @@
     height: 25px;
     text-align: center;
     width: 25px;
+    background: black;
+    color: white;
   }
   
   .card-author {
@@ -160,6 +162,12 @@
       grid-template-columns: repeat(1, minmax(200px, 500px));
       grid-gap: 50px;
       justify-content: space-around;
+    }
+    .btn-group{
+      display: contents;
+    }
+    .btn-group__item {
+    padding: 0.5rem 2rem !important;
     }
   }
   
