@@ -4,8 +4,8 @@ import UseState from "./component/Hooks/UseState";
 
 const App = () => {
 
-  return <UseState />;
-  // return <Restaurant />;
+  // return <UseState />;
+  return <Restaurant />;
 };
 
 export default App
