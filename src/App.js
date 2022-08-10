@@ -1,13 +1,14 @@
 import React from 'react';
 import Restaurant from "./component/basics/Restaurant";
+import UseState from "./component/Hooks/UseState";
 
 const App = () => {
-  return <Restaurant />;
+
+  return <UseState />;
+  // return <Restaurant />;
 };
 
-
 export default App
-
 
 // const App = () => {
 //   return (

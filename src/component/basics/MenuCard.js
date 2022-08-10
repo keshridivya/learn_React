@@ -12,7 +12,7 @@ const MenuCard = ({menuDta}) => {
       const{id,name,price,category,description,image} = curElem;
       return(
         <>
-<div className="card-container" key={id}>
+    <div className="card-container" key={id}>
       <div className="card">
         <div className="card-bpody">
           <span className="card-number card-circle subtitle" style={mystyle}>{id} </span>
