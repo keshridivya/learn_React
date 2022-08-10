@@ -7,7 +7,7 @@ const useState = () => {
   return (
     <div className="center_div">
       <p>{num}</p>
-      <div className="button2" onMouseMove={() => setNum(num+1)}>
+      <div className="button2" onMouseMove={() => setNum(num+1)} onClick={() => setNum(num+1)}>
         <span></span>
         <span></span>
         <span></span>
@@ -15,7 +15,7 @@ const useState = () => {
         <span></span>
         Increment
       </div>
-      <div className="button2" onMouseMove={() => setNum(num-1)}>
+      <div className="button2" onMouseMove={() => setNum(num-1)} onClick={() => setNum(num-1)}>
         <span></span>
         <span></span>
         <span></span>
